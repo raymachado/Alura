@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background: rgb(57, 173, 186, 1);
+    margin: 0px;
+    font-family:"Nerko One", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 253, 213, 1);
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(255, 253, 213, 1);
+}
+
+.chamada-t {
+    background: rgb(3,53,92,1);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    color:rgb(255, 253, 213, 1);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    color:rgb(255, 253, 213, 1);
+}
+
+img {
+    height: 200px;
+}
+
+.chamada-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.chamada-v {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.chamada-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.chamada-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(255, 253, 213, 1);
+}
